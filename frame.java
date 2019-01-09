@@ -58,13 +58,11 @@ public class frame extends Activity implements View.OnClickListener,RecyclerItem
         //Process
         ImagePreview.setImageBitmap(Utilities.IMAGE_ARRAY);
 
-        lofurl.add("http://clusterclear.ae/assets/admin/usersdata/c6a2d83cde2737120d6801d3a08b3657.png");
-        lofurl.add("http://clusterclear.ae/assets/admin/usersdata/43d44dbf5e7987fd77ffa07e3b60b174.png");
-        lofurl.add("http://clusterclear.ae/assets/admin/usersdata/1121d3d85b0721f71fc99d10d1a9b14a.png");
-        lofurl.add("http://clusterclear.ae/assets/admin/usersdata/0c6d4bf1c4f4f271d110d0af7f73567c.png");
-        lofurl.add("http://clusterclear.ae/assets/admin/usersdata/e8754213d3322451bb8167517e210c89.png");
-        lofurl.add("http://clusterclear.ae/assets/admin/usersdata/4348824b53e41470e1f5194c3e123603.png");
-
+        lofurl.add("https://upload.wikimedia.org/wikipedia/en/b/be/Fatehpora_Link_Road.jpeg");
+        lofurl.add("http://wallpapersontheweb.net/wallpapers/l/boat_sky_lake_dock_nature_tree-18054.jpg");
+        lofurl.add("http://wallpapersontheweb.net/wallpapers/l/boat_sky_lake_dock_nature_tree-18054.jpg");
+        lofurl.add("http://blogs.lse.ac.uk/management/files/2017/05/1st-Day-at-Google.jpg");
+ 
         mAdapter = new FrameRecycler(lofurl,this,this);
         ListDisplay = (RecyclerView)findViewById(R.id.recycler_view_template);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false);
